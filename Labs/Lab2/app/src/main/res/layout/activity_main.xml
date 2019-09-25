@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_marginTop="150dp"
+        android:text="No Wi-Fi Connected"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="141dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="50dp"
+        android:text="Scan for Wi-Fi" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Results:" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:visibility="invisible"></ListView>
+</LinearLayout>

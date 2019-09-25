@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="Show Available Sensors"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button2"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Q1"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/text1"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:textSize="15sp"
+        android:text="Available sensors on this phone" />
+
+    <TextView
+        android:id="@+id/text3small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:text="Orientation of Phone"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/text3big"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text3small"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="9dp" />
+
+</RelativeLayout>
