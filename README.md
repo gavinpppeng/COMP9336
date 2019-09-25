@@ -1,2 +1,2 @@
 # COMP9336
-Mobile Networking
+Mobile Data Networking 19T2 This course will examine how mobility affects networks, systems, and applications. It will teach advanced concepts and protocols for managing mobility in TCP/IP networks, improving spectrum and energy efficiency of mobile networking, realizing more direct form of device-to-device communication, enhancing the quality of experience of mobile video, and achieving self-powered wireless communication. Learning emerging device functionalities and features will be part of this course, which requires some basic understanding of mobile device programming, such as Android and Java.
